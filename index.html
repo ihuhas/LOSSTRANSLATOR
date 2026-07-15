@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>食品ロス可視化システム</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <div class="titleArea">
+
+            <h1>LOSS TRANSLATOR</h1>
+
+            <p>
+                見えないロスを、見えるロスに
+            </p>
+
+        </div>
+
+        <div id="clock">
+            00:00:00
+        </div>
+
+    </header>
+
+    <main>
+
+        <p class="subTitle">
+            愛知県 リアルタイムデータ
+        </p>
+
+        <div class="emoji">
+            <img src="onigiri.png" alt="おにぎり">
+        </div>
+
+        <div id="loss">
+            4,528,913
+        </div>
+
+        <div class="unit">
+            個分
+        </div>
+
+        <p class="live">
+            ● 現在も増えています
+        </p>
+
+    </main>
+
+    <section class="info">
+
+        <div class="card">
+
+            <h2>県民1人あたり</h2>
+
+            <p>
+                <img src="onigiri.png" alt="おにぎり" class="onigiri-icon">
+                <span id="perPerson">0.60</span>
+                個分
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>現在の食品ロス</h2>
+
+            <p id="weight">
+                約272トン
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>昨日との比較</h2>
+
+            <p id="compare">
+                ▼3.2%
+            </p>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
